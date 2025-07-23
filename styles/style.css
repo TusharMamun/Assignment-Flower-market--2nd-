@@ -1,0 +1,56 @@
+@import "tailwindcss";
+.custom-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body{
+     font-family: "Inter", sans-serif;
+background: rgba(245, 248, 255, 1.00);
+    display: block;
+}
+/* banner */
+
+.banner-span{
+    color: rgb(233, 90, 8);
+}
+.img-contain{
+    border: 1px dotted gray;
+}
+
+/* responsive */
+@media only screen and (max-width: 640px) {
+.nav-link {
+    display:none;
+}   
+.nave-menu img{
+    width: 63px;
+    height: 38px;
+}
+.cart-product{
+    display: block;
+}
+.custom-container{
+
+    padding: 40px;
+}
+.banner-section{
+    flex-direction: column-reverse;
+column-gap: 70px;
+}
+.banner-title {
+    font-size: 24px;
+font-family: 700;
+text-align: start;
+margin-top: 30px;
+
+
+}
+.banner-description{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+
+}
+
+}
