@@ -45,6 +45,13 @@ margin-bottom: 20px;
 
 
 }
+/* plant love section */
+.plant-lover-right li{
+    font-size: 1.4rem;
+font-weight: 400;
+text-align: justify;
+
+}
 
 /* responsive */
 @media only screen and (max-width: 640px) {
@@ -106,5 +113,24 @@ line-height: 30px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10px;
 }
+ /* <!-- plant lover section --> */
+ .trusted{
+    display: none;
+ }
+ .plant-lover{
+flex-direction: column-reverse;
+margin-top: 40px;
+text-align: center;
+ }
+  .plant-lover br{
+display: none;
+  }
+    .plant-lover ul{
+padding-left: 0;
+margin-left: 0;
+  }
+    .plant-lover ul li{
+text-align: justify;
+  }
 
 }
