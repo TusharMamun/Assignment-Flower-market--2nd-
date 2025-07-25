@@ -345,7 +345,7 @@ text-align: justify;
 .right-img{
 
     height: 430px;
-       background-image: url(..assets/deal-zabo.png);
+       background-image: url(../assets/deal-zabo.png);
     background-size: cover;
 height: 202px;
 
@@ -371,7 +371,7 @@ height: 275px;
     padding: 20px;
        object-fit: contain;
        background-repeat: no-repeat;
-       background-image: url(..assets/news-letter-bg.png);
+       background-image: url(../assets/news-letter-bg.png);
            display: flex;
         
 justify-content: center;
