@@ -184,6 +184,65 @@ margin-left: -7px;
    background: rgb(233, 90, 8);
 
 }
+/* footer secion */
+footer .footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+footer .social-midea{
+    display: flex;
+    gap: 8px;
+}
+footer .social-midea img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+.footer-log{
+    align-items: start;
+}
+.footer-log img{
+max-width: 135px;
+max-height: 82px;
+}
+.footer-log{
+    width: 359px;
+    height: 178px;
+}
+.footer-dectripiton{
+    width: 359px;
+height: 80px;
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 20px;
+}
+footer .navigator{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+footer .navigator li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:30px ;
+
+}
+footer .navigator li a{
+color: rgb(107, 114, 128);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 /* responsive */
 
@@ -207,7 +266,7 @@ margin: 0 15px;
 column-gap: 70px;
 }
 .banner-title {
-    font-size: 24px;
+    font-size: 1.4rem;
 font-weight: 700;
 text-align: start;
 margin-top: 30px;
@@ -217,7 +276,7 @@ line-height: 30px;
 }
 
 .banner-description{
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: start;
 
@@ -227,7 +286,7 @@ line-height: 30px;
     margin-bottom: 10px;
 }
 .plan-description{    
-    font-size: 14px;
+    font-size: 1rem;
 font-family: 400;
 text-align: center;
 
@@ -235,7 +294,7 @@ text-align: center;
 
 }
 .plants .plant-title{
-    font-size: 24px;
+    font-size: 1.4rem;
 font-weight: 700;
 text-align: center;
 margin-bottom: 5px;
@@ -346,6 +405,24 @@ padding: 15px 13px 15px 8px;
    background: rgb(233, 90, 8);
 
 }
+/* footer responive */
+footer .footer-main{
+    display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+footer .navigator{
+    display: flex;
+    flex-direction: column;
+}
+footer .navigator .items-2{
+   margin-top: -120px;
+}
+footer .social-midea{
+    display: flex;
+    flex-direction: row;
 
+    gap: 28px;
+}
 
 }
