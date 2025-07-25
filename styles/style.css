@@ -52,8 +52,141 @@ font-weight: 400;
 text-align: justify;
 
 }
+/* Latest  Deals */
+.latest-hadding{
+    
+}
+.latest-deals h2{
+
+}
+.latest-deals span{
+    color: rgb(233, 90, 8);
+}
+
+.bg-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+.bg-container .left-bg {
+    
+  height: 420px;
+    display: grid;
+row-gap: 25px;
+    grid-template-rows: repeat(2, 1fr);
+
+
+}
+
+
+.bg1{
+  
+ height: 202.5px;
+            background-image: url(/assets/deal-bloom.png);
+    background-size: cover;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: rgba(102, 88, 88, 0.8);
+background-blend-mode: darken, luminosity;
+
+}
+.content-bg{
+    text-align: center;
+    color: white;
+}
+.content-bg h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+font-family: serif;
+color: white;
+}
+.content-bg p{
+font-size: 1rem;
+font-weight: 600;
+    text-decoration: underline;
+}
+#third-img h1{
+    font-size: 2.6rem;
+}
+#third-img p{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.bg2{
+ height: 202px;
+         background-image: url(/assets/deal-ana.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+ background-color: rgba(102, 88, 88, 0.8);
+background-blend-mode: darken, luminosity;
+
+}
+
+.right-img{
+
+    height: 430px;
+       background-image: url(/assets/deal-zabo.png);
+    background-size: cover;
+    display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+ background-color: rgba(15, 15, 15, 0.4);
+background-blend-mode: darken;
+
+}
+.suscription{
+     height: 533px;
+       background-size: cover;
+    width: 100%;
+    padding: 20px;
+       object-fit: contain;
+       background-repeat: no-repeat;
+       background-image: url(/assets/news-letter-bg.png);
+           display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.news-letter-title{
+    color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 3rem;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 23px;
+}
+.news-letter-suscription input{
+padding: 25px 367px 25px 13px;
+background-color: whitesmoke;
+text-align: start;
+border: none;
+ font-size: 1rem;
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+margin-left: -7px;
+}
+.news-letter-suscription input{
+   
+}
+.news-letter-suscription .button{
+    padding: 25px 81px 25px 13px;
+   text-align: center;
+
+   background: rgb(233, 90, 8);
+
+}
 
 /* responsive */
+
 @media only screen and (max-width: 640px) {
 .nav-link {
     display:none;
@@ -117,11 +250,16 @@ line-height: 30px;
  .trusted{
     display: none;
  }
+ .plant-lover-left{
+    margin-top: 30px;
+ }
  .plant-lover{
 flex-direction: column-reverse;
-margin-top: 40px;
+column-gap: 50px;
+
 text-align: center;
  }
+
   .plant-lover br{
 display: none;
   }
@@ -129,8 +267,85 @@ display: none;
 padding-left: 0;
 margin-left: 0;
   }
+
     .plant-lover ul li{
 text-align: justify;
   }
+  .plant-lover{
+    margin-top: 20px;
+  }
+  .plant-lover-left {
+ margin-top: 108px;
+  }
+/* latest-deals section */
+.bg-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
+}
+.right-img{
+
+    height: 430px;
+       background-image: url(/assets/deal-zabo.png);
+    background-size: cover;
+height: 202px;
+
+}
+
+
+#third-img h1{
+  font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+    #third-img p{
+ font-size: 1rem;
+font-weight: 600;
+    text-decoration: underline;
+}
+.suscription{
+
+width: 100%;
+height: 275px;
+       background-size: cover;
+    padding: 20px;
+       object-fit: contain;
+       background-repeat: no-repeat;
+       background-image: url(/assets/news-letter-bg.png);
+           display: flex;
+        
+justify-content: center;
+align-items: center;
+
+}
+.news-letter-suscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.news-letter-title{
+    color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 1.4rem;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 13px;
+}
+.news-letter-suscription input{
+padding: 15px 13px 15px 8px;
+
+}
+.news-letter-suscription .button{
+        padding: 15px 15px 15px 13px;
+   text-align: center;
+
+   background: rgb(233, 90, 8);
+
+}
+
 
 }
